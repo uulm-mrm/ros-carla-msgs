@@ -30,3 +30,6 @@ int32 gear
 
 # manual gear shift
 bool manual_gear_shift
+
+bool do_velocity_overwrite
+float32 next_velocity
