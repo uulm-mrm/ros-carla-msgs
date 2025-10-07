@@ -11,5 +11,8 @@ float32 velocity
 geometry_msgs/Accel acceleration
 geometry_msgs/Quaternion orientation
 
+float32 wheel_angle_fl
+float32 wheel_angle_fr
+
 # the current control values, as reported by Carla
 CarlaEgoVehicleControl control
