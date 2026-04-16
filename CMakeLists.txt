@@ -25,7 +25,8 @@ set(MSG_FILES
     CarlaTrafficLightStatus.msg
     CarlaTrafficLightStatusList.msg
     CarlaWalkerControl.msg
-    CarlaWeatherParameters.msg)
+    CarlaWeatherParameters.msg
+    CarlaRearAxisRotation.msg)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD_REQUIRED ON)
